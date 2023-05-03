@@ -22,8 +22,17 @@ public class Main {
         System.out.println();
         HogwartsCompare hogwartsCompare = new HogwartsCompare();
         hogwartsCompare.compareAnnyStudents(students[6], students[2]);
-
-      //  HogwartsCompare hogwartsCompare = new HogwartsCompare();
-        // hogwartsCompare.compareGryffindor(students[1], students[2]);
+        System.out.println();
+        hogwartsCompare = new HogwartsCompare();
+        hogwartsCompare.compareGryffindor((Gryffindor) students[1], (Gryffindor) students[0]);
+        System.out.println();
+        hogwartsCompare = new HogwartsCompare();
+        hogwartsCompare.compareHuffenduy((Huffenduy) students[1],(Huffenduy) students[2]);
+        System.out.println();
+        hogwartsCompare = new HogwartsCompare();
+        hogwartsCompare.compareSlizerin((Slizerin) students[1], (Slizerin) students[2]);
+        System.out.println();
+        hogwartsCompare = new HogwartsCompare();
+        hogwartsCompare.compareKogtevran((Kogtevran) students[0], (Kogtevran) students[1]);
     }
     }
